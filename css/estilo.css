@@ -1,0 +1,161 @@
+
+.lato-regular {
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+  }
+  
+body {
+	background-color: #EDF2F4;
+	background: url('../imagens/wallpaper.jpeg');
+}
+h1 {
+	font-family: "Lato", sans-serif;
+	font-style: normal;
+}
+h2 {
+	font-family: "Lato", sans-serif;
+	font-style: normal;
+	color: hsla(0, 11%, 47%, 0.545);
+}
+h2 {
+	font-size: 1.7em;
+}
+h2:hover {
+	text-decoration: none;
+	
+	color: #050303;
+}
+p {
+	font-family: "Lato", sans-serif;
+	font-style: normal;
+}
+a {
+	font-family: "Lato", sans-serif;
+	font-style: normal;
+	color: #010101;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	font-weight: bold;
+	color: #00000063;
+}
+
+.navbar-title {
+	color:#ede6e6;
+	text-shadow: 2px 2px #010101
+}
+
+.nav-config {
+	background-color: #2B2D42;
+}
+
+.main-config {
+	background-color: #EDF2F4;
+
+
+}
+.container-imagens {
+  position: relative;
+  text-align: center;
+  color: rgb(59, 127, 229);
+  margin-top: 80px;
+}
+
+.centered {
+  
+  position: absolute;
+  color: black;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #8e2b2b;
+}
+
+
+
+
+
+.noticia-destaque-container {
+	background-color: #023047;
+}
+
+.noticia-destaque  {
+	max-width: 100%;
+  	max-height: 515px;
+  	height: auto;
+  	background-color: #FF006E;
+    transition: transform .4s;
+
+}
+.noticia-destaque-2{
+	max-width: 100%;
+  	height: auto;
+	background: gray;
+    transition: transform .4s;
+
+}
+.noticia-destaque-3{
+	max-width: 100%;
+  	height: auto; 
+	background: gray;
+    transition: transform .4s;
+
+}
+.noticia-destaque-text {
+
+}
+/* Effects */
+
+  
+  .noticia-destaque:hover {
+	-ms-transform: scale(1.15); /* IE 9 */
+	-webkit-transform: scale(1.15); /* Safari 3-8 */
+	transform: scale(1.15); 
+	opacity: 0.95;
+  }
+  .noticia-destaque-2:hover {
+	-ms-transform: scale(1.07); /* IE 9 */
+	-webkit-transform: scale(1.07); /* Safari 3-8 */
+	transform: scale(1.07); 
+  }
+  .noticia-destaque-3:hover {
+	-ms-transform: scale(1.07); /* IE 9 */
+	-webkit-transform: scale(1.07); /* Safari 3-8 */
+	transform: scale(1.07); 
+  }
+  .noticia-config:hover {
+	-ms-transform: scale(1.07); /* IE 9 */
+	-webkit-transform: scale(1.07); /* Safari 3-8 */
+	transform: scale(1.07); 
+
+  }
+
+  /* Fim */
+.noticia-config {
+	max-width: 100%;
+  	height: auto;
+	transition: transform .5s;
+
+}
+
+
+
+
+
+.footer { 
+	background: #8D99AE;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
+
+}
+
+
+
+
